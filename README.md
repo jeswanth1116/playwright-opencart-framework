@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PWFWDemo Automation Reports
 
 Welcome to the **June2025PWFramework** automation project. Below you can find the latest test results and HTML reports.
@@ -25,3 +26,7 @@ Click the badges below to view the latest reports published via GitHub Pages:
 - Playwright HTML report is generated automatically from `npx playwright test`.  
 - Allure report is generated from the `allure-results` folder.  
 - Both reports are published to `gh-pages` branch and updated on each workflow run.
+=======
+# playwright-opencart-framework
+Playwright automation tests
+>>>>>>> 56188e115ae06b6522719f00b6c2c5f457880c83
