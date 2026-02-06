@@ -1,0 +1,10 @@
+Testing invalid email format: amotoori
+Filled text : Maria into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Brown into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : amotoori into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 5547873094 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : Mx4eyEZ0 into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : Mx4eyEZ0 into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })
+Invalid email test completed. URL: https://naveenautomationlabs.com/opencart/index.php?route=account/register

@@ -1,0 +1,10 @@
+Testing invalid phone format: 111
+Filled text : Lisa into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Miller into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770377956984_3307@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 111 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : KQiLeb2j into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : KQiLeb2j into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })
+Invalid phone test completed. URL: https://naveenautomationlabs.com/opencart/index.php?route=account/success

@@ -1,0 +1,9 @@
+Testing invalid phone format: 111
+Filled text : Jane into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Jones into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770375041795_3970@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 111 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : dHA!EvUP into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : dHA!EvUP into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

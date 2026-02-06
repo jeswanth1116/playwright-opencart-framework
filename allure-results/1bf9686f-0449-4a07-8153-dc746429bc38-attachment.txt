@@ -1,0 +1,9 @@
+Testing spaces trimming in form fields
+Filled text :   John   into element : getByRole('textbox', { name: 'First Name' })
+Filled text :   Johnson   into element : getByRole('textbox', { name: 'Last Name' })
+Filled text :   testuser_1770376759971_5065@invalid.com   into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text :   4224159856   into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : tLNKabMh into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : tLNKabMh into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

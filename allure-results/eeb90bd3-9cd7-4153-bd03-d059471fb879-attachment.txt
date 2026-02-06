@@ -1,0 +1,2 @@
+Testing navigation from register page
+Clicked on element : getByRole('link', { name: 'Login' })

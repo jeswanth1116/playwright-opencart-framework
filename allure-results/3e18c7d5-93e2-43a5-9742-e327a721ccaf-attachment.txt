@@ -1,0 +1,10 @@
+Registering with Newsletter = Yes
+Filled text : David into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Williams into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770377212989_6863@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 9313253476 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : N7t9T6sk into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : N7t9T6sk into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : getByRole('radio', { name: 'Yes' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

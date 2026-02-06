@@ -1,0 +1,9 @@
+Testing duplicate email validation
+Filled text : Lisa into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Johnson into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : jeswanth1116@gmail.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 5317764423 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : gc44PwO7 into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : gc44PwO7 into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

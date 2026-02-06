@@ -1,0 +1,9 @@
+Registering user: Emma Johnson | testuser_1770376616792_8528@invalid.com | 7166397169
+Filled text : Emma into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Johnson into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770376616792_8528@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 7166397169 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : kR@8vzFg into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : kR@8vzFg into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

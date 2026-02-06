@@ -1,0 +1,1 @@
+Verifying Privacy Policy checkbox is not checked by default

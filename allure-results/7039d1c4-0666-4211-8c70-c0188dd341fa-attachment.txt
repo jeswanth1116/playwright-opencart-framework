@@ -1,0 +1,9 @@
+Testing character limit validation
+Filled text : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA into element : getByRole('textbox', { name: 'First Name' })
+Filled text : BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770376379250_2469@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 111111111111111111111111111111111 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : PPPPPPPPPPPPPPPPPPPPP into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : PPPPPPPPPPPPPPPPPPPPP into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

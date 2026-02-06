@@ -1,0 +1,9 @@
+Testing invalid email format: amotoori
+Filled text : Maria into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Johnson into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : amotoori into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 8457598738 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : 3oUv$uBP into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : 3oUv$uBP into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

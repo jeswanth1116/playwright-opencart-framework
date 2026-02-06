@@ -1,0 +1,8 @@
+Testing Privacy Policy requirement validation
+Filled text : Chris into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Jones into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770376286128_6205@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 7966058184 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : nc7e$vy0 into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : nc7e$vy0 into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : getByRole('button', { name: 'Continue' })

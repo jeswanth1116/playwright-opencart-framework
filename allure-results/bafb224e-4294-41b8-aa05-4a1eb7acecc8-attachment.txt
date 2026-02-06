@@ -1,0 +1,2 @@
+Testing navigation to register page
+Clicked on element : getByText('Register', { exact: true })

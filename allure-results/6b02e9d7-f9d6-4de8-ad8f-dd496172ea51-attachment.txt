@@ -1,0 +1,10 @@
+Verifying database storage for automation_1770377332673@test.com
+Filled text : Sarah into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Brown into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : automation_1770377332673@test.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 1757101072 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : TestPass123 into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : TestPass123 into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })
+After registration - URL: https://naveenautomationlabs.com/opencart/index.php?route=account/success, On success: true

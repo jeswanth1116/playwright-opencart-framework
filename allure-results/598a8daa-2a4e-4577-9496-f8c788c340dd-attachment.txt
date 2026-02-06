@@ -1,0 +1,10 @@
+Registering user with newsletter: Chris Williams
+Filled text : Chris into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Williams into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770377894363_5104@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 2666603516 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : QipBCPpb into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : QipBCPpb into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : getByRole('radio', { name: 'Yes' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

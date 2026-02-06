@@ -1,0 +1,8 @@
+Testing validation for empty password confirm
+Filled text : Chris into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Rodriguez into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770377273748_9065@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 4099624980 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : #eqVObTD into element : getByRole('textbox', { name: 'Password' }).first()
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

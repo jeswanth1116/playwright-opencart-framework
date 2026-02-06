@@ -1,0 +1,2 @@
+Testing validation messages for empty fields
+Clicked on element : getByRole('button', { name: 'Continue' })

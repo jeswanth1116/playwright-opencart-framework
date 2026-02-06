@@ -1,0 +1,9 @@
+Testing password complexity validation
+Filled text : David into element : getByRole('textbox', { name: 'First Name' })
+Filled text : Smith into element : getByRole('textbox', { name: 'Last Name' })
+Filled text : testuser_1770376746421_8150@invalid.com into element : getByRole('textbox', { name: 'E-Mail' })
+Filled text : 6306694845 into element : getByRole('textbox', { name: 'Telephone' })
+Filled text : 1234 into element : getByRole('textbox', { name: 'Password' }).first()
+Filled text : 1234 into element : getByRole('textbox', { name: 'Password Confirm' })
+Clicked on element : locator('[name="agree"]')
+Clicked on element : getByRole('button', { name: 'Continue' })

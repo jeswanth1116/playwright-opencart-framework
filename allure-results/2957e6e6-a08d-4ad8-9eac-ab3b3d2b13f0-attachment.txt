@@ -1,0 +1,1 @@
+Verifying password fields are masked
